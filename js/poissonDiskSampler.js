@@ -32,7 +32,7 @@ function PoissonDiskSampler() {
     this.h = 600;
     this.distanceMap = null;
     this.excludeMap = null;
-    this.excludeThreshold = 0;
+    this.excludeThreshold = 1;
 }
 
 
